@@ -28,5 +28,2232 @@
         "id":6,
         "name": "footprint-offset",
         "value": "10"
-    }]
+        }
+    ],
+    "display": [
+        {
+            "pages": {
+            "1": {
+            "name": "Overview",
+            "visible": true,
+            "template": "Timechart6Component",
+            "settings": {
+            "chart1Title": "Vessel course",
+            "chart1": {
+            "showAutoScaleEnableYAxisMinZero": true,
+            "chartRedrawFrequency": 40.0,
+            "xAxisTooltipValueFormatter": "0.2-2",
+            "yAxisTooltipValueFormatter": "0.2-2",
+            "historyTimeQuantity": 1.0,
+            "historyTimeUnit": "hours",
+            "xAxisStepSize": 10.0,
+            "yAxisStepSize": 90.0,
+            "yAxisAutoScalingMinZero": false,
+            "alertLimits": [
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            }
+            ],
+            "imperialUnits": [
+            "ft"
+            ],
+            "series": [
+            {
+            "color": "#888888",
+            "format": "3.0-0",
+            "name": "COG (°T)",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|08cedb1e-28a1-44f3-90bb-e1cbba0c538e",
+            "unit": "°T"
+            }
+            ],
+            "showOptions": true,
+            "showAutoScaleEnableYAxis": true,
+            "showLegend": false,
+            "showOptionsAlerts": false,
+            "showOptionsLegendCheckbox": false,
+            "showOptionsScaling": false,
+            "showOptionsSeries": true,
+            "showOptionsUnits": false,
+            "showOptionsXAxis": false,
+            "showOptionsXAxisTime": true,
+            "showOptionsYAxis": true,
+            "pointRadius": 0.0,
+            "pointHitRadius": 5.0,
+            "lineTension": 0.0,
+            "axisLimitValuesDecimals": 3.0,
+            "xAxisUnit": "minutes",
+            "yAxisMin": 0.0,
+            "yAxisMax": 360.0,
+            "yAxisMinDefault": 0.0,
+            "yAxisMaxDefault": 360.0,
+            "yAxisMinLimit": 0.0,
+            "yAxisMaxLimit": 360.0,
+            "yAxisIncrement": 1.0,
+            "yAxisScaling": "linear",
+            "yAxisAutoScaling": false,
+            "yAxisUnit": "Degrees",
+            "metric": [
+            "m"
+            ],
+            "beaufortScale": false,
+            "directionText": false,
+            "showUnits": false,
+            "borderStyle": [
+            "solid"
+            ],
+            "chartName": "afaf2d9d-9ec7-4756-a3ee-392667791380_1"
+            },
+            "chart2Title": "True wind direction",
+            "chart2": {
+            "showAutoScaleEnableYAxisMinZero": true,
+            "chartRedrawFrequency": 40.0,
+            "xAxisTooltipValueFormatter": "0.2-2",
+            "yAxisTooltipValueFormatter": "0.2-2",
+            "historyTimeQuantity": 1.0,
+            "historyTimeUnit": "hours",
+            "xAxisStepSize": 10.0,
+            "yAxisStepSize": 90.0,
+            "yAxisAutoScalingMinZero": false,
+            "alertLimits": [
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            }
+            ],
+            "imperialUnits": [
+            "ft"
+            ],
+            "series": [
+            {
+            "color": "#1c99e6",
+            "format": "3.0-0",
+            "name": "Wind (°T)",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|dbf66c00-9f12-4636-82a9-5016bfa38ed0",
+            "unit": "°T"
+            }
+            ],
+            "showOptions": true,
+            "showAutoScaleEnableYAxis": true,
+            "showLegend": false,
+            "showOptionsAlerts": false,
+            "showOptionsLegendCheckbox": false,
+            "showOptionsScaling": false,
+            "showOptionsSeries": true,
+            "showOptionsUnits": false,
+            "showOptionsXAxis": false,
+            "showOptionsXAxisTime": true,
+            "showOptionsYAxis": true,
+            "pointRadius": 0.0,
+            "pointHitRadius": 5.0,
+            "lineTension": 0.0,
+            "axisLimitValuesDecimals": 3.0,
+            "xAxisUnit": "minutes",
+            "yAxisMin": 0.0,
+            "yAxisMax": 360.0,
+            "yAxisMinDefault": 0.0,
+            "yAxisMaxDefault": 360.0,
+            "yAxisMinLimit": 0.0,
+            "yAxisMaxLimit": 360.0,
+            "yAxisIncrement": 1.0,
+            "yAxisScaling": "linear",
+            "yAxisAutoScaling": false,
+            "yAxisUnit": "Degrees",
+            "metric": [
+            "m"
+            ],
+            "beaufortScale": false,
+            "directionText": false,
+            "showUnits": false,
+            "borderStyle": [
+            "solid"
+            ],
+            "chartName": "afaf2d9d-9ec7-4756-a3ee-392667791380_2"
+            },
+            "chart3Title": "True current and wave direction",
+            "chart3": {
+            "showAutoScaleEnableYAxisMinZero": true,
+            "chartRedrawFrequency": 40.0,
+            "xAxisTooltipValueFormatter": "0.2-2",
+            "yAxisTooltipValueFormatter": "0.2-2",
+            "historyTimeQuantity": 1.0,
+            "historyTimeUnit": "hours",
+            "xAxisStepSize": 10.0,
+            "yAxisStepSize": 90.0,
+            "yAxisAutoScalingMinZero": false,
+            "alertLimits": [
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            },
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            }
+            ],
+            "imperialUnits": [
+            "ft",
+            "ft"
+            ],
+            "series": [
+            {
+            "color": "#69518e",
+            "format": "3.0-0",
+            "name": "Current (°T)",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|13c98520-dc20-412a-9947-2fcb023dc677",
+            "unit": "°T"
+            },
+            {
+            "color": "#139835",
+            "format": "3.0-0",
+            "name": "Wave (°T)",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|b588998e-c1b2-48b8-af11-f0919c6b068a",
+            "unit": "°T"
+            }
+            ],
+            "showOptions": true,
+            "showAutoScaleEnableYAxis": true,
+            "showLegend": false,
+            "showOptionsAlerts": false,
+            "showOptionsLegendCheckbox": false,
+            "showOptionsScaling": false,
+            "showOptionsSeries": true,
+            "showOptionsUnits": false,
+            "showOptionsXAxis": false,
+            "showOptionsXAxisTime": true,
+            "showOptionsYAxis": true,
+            "pointRadius": 0.0,
+            "pointHitRadius": 5.0,
+            "lineTension": 0.0,
+            "axisLimitValuesDecimals": 3.0,
+            "xAxisUnit": "minutes",
+            "yAxisMin": 0.0,
+            "yAxisMax": 360.0,
+            "yAxisMinDefault": 0.0,
+            "yAxisMaxDefault": 360.0,
+            "yAxisMinLimit": 0.0,
+            "yAxisMaxLimit": 360.0,
+            "yAxisIncrement": 1.0,
+            "yAxisScaling": "linear",
+            "yAxisAutoScaling": false,
+            "yAxisUnit": "Degrees",
+            "metric": [
+            "m",
+            "m"
+            ],
+            "beaufortScale": false,
+            "directionText": false,
+            "showUnits": false,
+            "borderStyle": [
+            "solid",
+            "solid"
+            ],
+            "chartName": "afaf2d9d-9ec7-4756-a3ee-392667791380_3"
+            },
+            "chart4Title": "Vessel speed",
+            "chart4": {
+            "showAutoScaleEnableYAxisMinZero": true,
+            "chartRedrawFrequency": 40.0,
+            "xAxisTooltipValueFormatter": "0.2-2",
+            "yAxisTooltipValueFormatter": "0.2-2",
+            "historyTimeQuantity": 1.0,
+            "historyTimeUnit": "hours",
+            "xAxisStepSize": 10.0,
+            "yAxisStepSize": "NaN",
+            "yAxisAutoScalingMinZero": false,
+            "convert": true,
+            "alertLimits": [
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            },
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            },
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            }
+            ],
+            "dataValues": {
+            "dataType": "speed",
+            "chartUnit": "kn",
+            "metricUnitLabel": "Meters / Second",
+            "imperialUnitLabel": "Knots"
+            },
+            "imperialUnits": [
+            "knots",
+            "knots",
+            "knots"
+            ],
+            "series": [
+            {
+            "color": "#888888",
+            "format": "1.2-2",
+            "name": "SOG (kn)",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|6dd2abcc-3931-4d2e-a6ec-ef4e2c7d824c",
+            "unit": "kn"
+            },
+            {
+            "color": "#cac413",
+            "format": "1.2-2",
+            "name": "STW (kn)",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|2f5b71df-5cb2-48ff-8ee7-14dba58cb804",
+            "unit": "kn"
+            },
+            {
+            "color": "#69518e",
+            "format": "1.2-2",
+            "name": "Current (kn)",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|48a5fc8b-f739-454f-ac91-ffe81595fc2e",
+            "unit": "kn"
+            }
+            ],
+            "showOptions": true,
+            "showAutoScaleEnableYAxis": true,
+            "showLegend": false,
+            "showOptionsAlerts": true,
+            "showOptionsLegendCheckbox": false,
+            "showOptionsScaling": false,
+            "showOptionsSeries": true,
+            "showOptionsUnits": false,
+            "showOptionsXAxis": false,
+            "showOptionsXAxisTime": true,
+            "showOptionsYAxis": true,
+            "pointRadius": 0.0,
+            "pointHitRadius": 5.0,
+            "lineTension": 0.0,
+            "axisLimitValuesDecimals": 3.0,
+            "xAxisUnit": "minutes",
+            "yAxisMin": 0.0,
+            "yAxisMax": 30.0,
+            "yAxisMinDefault": 0.0,
+            "yAxisMaxDefault": 30.0,
+            "yAxisMinLimit": 0.0,
+            "yAxisMaxLimit": 30.0,
+            "yAxisIncrement": 1.0,
+            "yAxisScaling": "linear",
+            "yAxisAutoScaling": true,
+            "yAxisUnit": "Meters / Second",
+            "metric": [
+            "m/s",
+            "m/s",
+            "m/s"
+            ],
+            "beaufortScale": false,
+            "directionText": false,
+            "showUnits": false,
+            "borderStyle": [
+            "solid",
+            "solid",
+            "solid"
+            ],
+            "chartName": "afaf2d9d-9ec7-4756-a3ee-392667791380_4"
+            },
+            "chart5Title": "True wind speed",
+            "chart5": {
+            "showAutoScaleEnableYAxisMinZero": true,
+            "chartRedrawFrequency": 40.0,
+            "xAxisTooltipValueFormatter": "0.2-2",
+            "yAxisTooltipValueFormatter": "0.2-2",
+            "historyTimeQuantity": 1.0,
+            "historyTimeUnit": "hours",
+            "xAxisStepSize": 10.0,
+            "yAxisStepSize": "NaN",
+            "yAxisAutoScalingMinZero": false,
+            "convert": true,
+            "alertLimits": [
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            }
+            ],
+            "dataValues": {
+            "dataType": "speed",
+            "chartUnit": "kn",
+            "metricUnitLabel": "Meters / Second",
+            "imperialUnitLabel": "Knots"
+            },
+            "imperialUnits": [
+            "knots"
+            ],
+            "series": [
+            {
+            "color": "#1c99e6",
+            "format": "1.2-2",
+            "name": "Wind (kn)",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|663167af-e083-4fa1-bf93-d0ca0d709a64",
+            "unit": "m/s"
+            }
+            ],
+            "showOptions": true,
+            "showAutoScaleEnableYAxis": true,
+            "showLegend": false,
+            "showOptionsAlerts": false,
+            "showOptionsLegendCheckbox": false,
+            "showOptionsScaling": false,
+            "showOptionsSeries": true,
+            "showOptionsUnits": false,
+            "showOptionsXAxis": false,
+            "showOptionsXAxisTime": true,
+            "showOptionsYAxis": true,
+            "pointRadius": 0.0,
+            "pointHitRadius": 5.0,
+            "lineTension": 0.0,
+            "axisLimitValuesDecimals": 3.0,
+            "xAxisUnit": "minutes",
+            "yAxisMin": 0.0,
+            "yAxisMax": 30.0,
+            "yAxisMinDefault": 0.0,
+            "yAxisMaxDefault": 30.0,
+            "yAxisMinLimit": 0.0,
+            "yAxisMaxLimit": 30.0,
+            "yAxisIncrement": 1.0,
+            "yAxisScaling": "linear",
+            "yAxisAutoScaling": true,
+            "yAxisUnit": "Meters / Second",
+            "metric": [
+            "m/s"
+            ],
+            "beaufortScale": false,
+            "directionText": false,
+            "showUnits": false,
+            "borderStyle": [
+            "solid"
+            ],
+            "chartName": "afaf2d9d-9ec7-4756-a3ee-392667791380_5"
+            },
+            "chart6Title": "Wave height",
+            "chart6": {
+            "showAutoScaleEnableYAxisMinZero": true,
+            "chartRedrawFrequency": 40.0,
+            "xAxisTooltipValueFormatter": "0.2-2",
+            "yAxisTooltipValueFormatter": "0.2-2",
+            "historyTimeQuantity": 1.0,
+            "historyTimeUnit": "hours",
+            "xAxisStepSize": 10.0,
+            "yAxisStepSize": "NaN",
+            "yAxisAutoScalingMinZero": true,
+            "alertLimits": [
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            },
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            }
+            ],
+            "imperialUnits": [
+            "ft",
+            "ft"
+            ],
+            "series": [
+            {
+            "color": "#139835",
+            "format": "1.1-1",
+            "name": "Maximum wave height (m)",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|cd79ccae-6db5-4115-aa18-d6494445ddf1",
+            "unit": "m"
+            },
+            {
+            "color": "#139835",
+            "format": "1.1-1",
+            "name": "Significant wave height (m)",
+            "styleDashed": {
+            "gap": 5,
+            "length": 5
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|65b4da96-60e7-41f2-900b-35ae3ba81dde",
+            "unit": "m"
+            }
+            ],
+            "showOptions": true,
+            "showAutoScaleEnableYAxis": true,
+            "showLegend": false,
+            "showOptionsAlerts": true,
+            "showOptionsLegendCheckbox": false,
+            "showOptionsScaling": false,
+            "showOptionsSeries": true,
+            "showOptionsUnits": false,
+            "showOptionsXAxis": false,
+            "showOptionsXAxisTime": true,
+            "showOptionsYAxis": true,
+            "pointRadius": 0.0,
+            "pointHitRadius": 5.0,
+            "lineTension": 0.0,
+            "axisLimitValuesDecimals": 3.0,
+            "xAxisUnit": "minutes",
+            "yAxisMin": 0.0,
+            "yAxisMax": 30.0,
+            "yAxisMinDefault": 0.0,
+            "yAxisMaxDefault": 30.0,
+            "yAxisMinLimit": 0.0,
+            "yAxisMaxLimit": 30.0,
+            "yAxisIncrement": 1.0,
+            "yAxisScaling": "linear",
+            "yAxisAutoScaling": false,
+            "yAxisUnit": "Meters",
+            "metric": [
+            "m",
+            "m"
+            ],
+            "beaufortScale": false,
+            "directionText": false,
+            "showUnits": false,
+            "borderStyle": [
+            "solid",
+            "dashed"
+            ],
+            "chartName": "afaf2d9d-9ec7-4756-a3ee-392667791380_6"
+            }
+            }
+            },
+            "3": {
+            "name": "STW",
+            "visible": true,
+            "template": "Timechart3PolarTimechartComponent",
+            "settings": {
+            "chart1Title": "Speed",
+            "chart1": {
+            "showAutoScaleEnableYAxisMinZero": true,
+            "chartRedrawFrequency": 40.0,
+            "xAxisTooltipValueFormatter": "0.2-2",
+            "yAxisTooltipValueFormatter": "0.2-2",
+            "historyTimeQuantity": 1.0,
+            "historyTimeUnit": "hours",
+            "xAxisStepSize": 10.0,
+            "yAxisStepSize": "NaN",
+            "yAxisAutoScalingMinZero": false,
+            "alertLimits": [
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            },
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            }
+            ],
+            "dataValues": {
+            "dataType": "speed",
+            "chartUnit": "kn",
+            "metricUnitLabel": "Meters / Second",
+            "imperialUnitLabel": "Knots"
+            },
+            "imperialUnits": [
+            "knots",
+            "knots"
+            ],
+            "series": [
+            {
+            "color": "#888888",
+            "format": "1.2-2",
+            "name": "SOG",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|6dd2abcc-3931-4d2e-a6ec-ef4e2c7d824c",
+            "unit": "m/s"
+            },
+            {
+            "color": "#cac413",
+            "format": "1.2-2",
+            "name": "STW",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|2f5b71df-5cb2-48ff-8ee7-14dba58cb804",
+            "unit": "m/s"
+            }
+            ],
+            "showOptions": true,
+            "showAutoScaleEnableYAxis": true,
+            "showLegend": false,
+            "showOptionsAlerts": true,
+            "showOptionsLegendCheckbox": false,
+            "showOptionsScaling": false,
+            "showOptionsSeries": true,
+            "showOptionsUnits": false,
+            "showOptionsXAxis": false,
+            "showOptionsXAxisTime": true,
+            "showOptionsYAxis": true,
+            "pointRadius": 0.0,
+            "pointHitRadius": 5.0,
+            "lineTension": 0.0,
+            "axisLimitValuesDecimals": 3.0,
+            "xAxisUnit": "minutes",
+            "yAxisMin": 0.0,
+            "yAxisMax": 30.0,
+            "yAxisMinDefault": 0.0,
+            "yAxisMaxDefault": 30.0,
+            "yAxisMinLimit": 0.0,
+            "yAxisMaxLimit": 30.0,
+            "yAxisIncrement": 1.0,
+            "yAxisScaling": "linear",
+            "yAxisAutoScaling": true,
+            "yAxisUnit": "Meters / Second",
+            "metric": [
+            "m/s",
+            "m/s"
+            ],
+            "beaufortScale": false,
+            "directionText": false,
+            "showUnits": false,
+            "borderStyle": [
+            "solid",
+            "solid"
+            ],
+            "chartName": "3e86becc-5fd6-43d5-8452-db6e6dcfb15a_1"
+            },
+            "chart2Title": "Course",
+            "chart2": {
+            "showAutoScaleEnableYAxisMinZero": true,
+            "chartRedrawFrequency": 40.0,
+            "xAxisTooltipValueFormatter": "0.2-2",
+            "yAxisTooltipValueFormatter": "0.2-2",
+            "historyTimeQuantity": 1.0,
+            "historyTimeUnit": "hours",
+            "xAxisStepSize": 10.0,
+            "yAxisStepSize": 90.0,
+            "yAxisAutoScalingMinZero": false,
+            "alertLimits": [
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            },
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            }
+            ],
+            "imperialUnits": [
+            "ft",
+            "ft"
+            ],
+            "series": [
+            {
+            "color": "#888888",
+            "format": "3.0-0",
+            "name": "COG (°T)",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|08cedb1e-28a1-44f3-90bb-e1cbba0c538e",
+            "unit": "m"
+            },
+            {
+            "color": "#cac413",
+            "format": "3.0-0",
+            "name": "CTW (°T)",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|6815ec54-35ec-42cd-a9b0-8b55429c8ae6",
+            "unit": "m"
+            }
+            ],
+            "showOptions": true,
+            "showAutoScaleEnableYAxis": true,
+            "showLegend": false,
+            "showOptionsAlerts": true,
+            "showOptionsLegendCheckbox": false,
+            "showOptionsScaling": false,
+            "showOptionsSeries": true,
+            "showOptionsUnits": false,
+            "showOptionsXAxis": false,
+            "showOptionsXAxisTime": true,
+            "showOptionsYAxis": true,
+            "pointRadius": 0.0,
+            "pointHitRadius": 5.0,
+            "lineTension": 0.0,
+            "axisLimitValuesDecimals": 3.0,
+            "xAxisUnit": "minutes",
+            "yAxisMin": 0.0,
+            "yAxisMax": 360.0,
+            "yAxisMinDefault": 0.0,
+            "yAxisMaxDefault": 360.0,
+            "yAxisMinLimit": 0.0,
+            "yAxisMaxLimit": 360.0,
+            "yAxisIncrement": 1.0,
+            "yAxisScaling": "linear",
+            "yAxisAutoScaling": true,
+            "yAxisUnit": "Degrees",
+            "metric": [
+            "m",
+            "m"
+            ],
+            "beaufortScale": false,
+            "directionText": false,
+            "showUnits": false,
+            "borderStyle": [
+            "solid",
+            "solid"
+            ],
+            "chartName": "3e86becc-5fd6-43d5-8452-db6e6dcfb15a_2"
+            },
+            "polar4Title": "Directional wave spectrum",
+            "polar4": {
+            "directionMarker": [
+            {
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|b588998e-c1b2-48b8-af11-f0919c6b068a",
+            "color": "#139835",
+            "marker": "A",
+            "label": "Wave"
+            },
+            {
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|13c98520-dc20-412a-9947-2fcb023dc677",
+            "color": "#69518E",
+            "marker": "C1",
+            "label": "Current"
+            },
+            {
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|dbf66c00-9f12-4636-82a9-5016bfa38ed0",
+            "color": "#1c99e6",
+            "marker": "B",
+            "label": "Wind"
+            },
+            {
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|6815ec54-35ec-42cd-a9b0-8b55429c8ae6",
+            "color": "#cac413",
+            "marker": "D1",
+            "label": "CTW"
+            }
+            ],
+            "axisLine": {
+            "showRings": true,
+            "showAxis": true
+            },
+            "spectrumContour": {
+            "parameter": "LD1-003",
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|92c32275-e5e2-452a-a353-6a92e35a4905"
+            },
+            "headingMarker": {
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|78014720-7ab2-4666-ab09-bb1bfceccf71"
+            },
+            "polarName": "3e86becc-5fd6-43d5-8452-db6e6dcfb15a_4"
+            },
+            "chart3Title": "Current speed",
+            "chart3": {
+            "showAutoScaleEnableYAxisMinZero": true,
+            "chartRedrawFrequency": 40.0,
+            "xAxisTooltipValueFormatter": "0.2-2",
+            "yAxisTooltipValueFormatter": "0.2-2",
+            "historyTimeQuantity": 1.0,
+            "historyTimeUnit": "hours",
+            "xAxisStepSize": 10.0,
+            "yAxisStepSize": "NaN",
+            "yAxisAutoScalingMinZero": true,
+            "alertLimits": [
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            }
+            ],
+            "dataValues": {
+            "dataType": "speed",
+            "chartUnit": "kn",
+            "metricUnitLabel": "Meters / Second",
+            "imperialUnitLabel": "Knots"
+            },
+            "imperialUnits": [
+            "knots"
+            ],
+            "series": [
+            {
+            "color": "#69518e",
+            "format": "1.2-2",
+            "name": "Current",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|48a5fc8b-f739-454f-ac91-ffe81595fc2e",
+            "unit": "m/s"
+            }
+            ],
+            "showOptions": true,
+            "showAutoScaleEnableYAxis": true,
+            "showLegend": false,
+            "showOptionsAlerts": true,
+            "showOptionsLegendCheckbox": false,
+            "showOptionsScaling": false,
+            "showOptionsSeries": true,
+            "showOptionsUnits": false,
+            "showOptionsXAxis": false,
+            "showOptionsXAxisTime": true,
+            "showOptionsYAxis": true,
+            "pointRadius": 0.0,
+            "pointHitRadius": 5.0,
+            "lineTension": 0.0,
+            "axisLimitValuesDecimals": 3.0,
+            "xAxisUnit": "minutes",
+            "yAxisMin": 0.0,
+            "yAxisMax": 30.0,
+            "yAxisMinDefault": 0.0,
+            "yAxisMaxDefault": 30.0,
+            "yAxisMinLimit": 0.0,
+            "yAxisMaxLimit": 30.0,
+            "yAxisIncrement": 1.0,
+            "yAxisScaling": "linear",
+            "yAxisAutoScaling": false,
+            "yAxisUnit": "Meters",
+            "metric": [
+            "m/s"
+            ],
+            "beaufortScale": false,
+            "directionText": false,
+            "showUnits": false,
+            "borderStyle": [
+            "solid"
+            ],
+            "chartName": "3e86becc-5fd6-43d5-8452-db6e6dcfb15a_3"
+            },
+            "chart5Title": "Current direction",
+            "chart5": {
+            "showAutoScaleEnableYAxisMinZero": true,
+            "chartRedrawFrequency": 40.0,
+            "xAxisTooltipValueFormatter": "0.2-2",
+            "yAxisTooltipValueFormatter": "0.2-2",
+            "historyTimeQuantity": 1.0,
+            "historyTimeUnit": "hours",
+            "xAxisStepSize": 10.0,
+            "yAxisStepSize": 90.0,
+            "yAxisAutoScalingMinZero": false,
+            "alertLimits": [
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            }
+            ],
+            "imperialUnits": [
+            "ft"
+            ],
+            "series": [
+            {
+            "color": "#69518e",
+            "format": "3.0-0",
+            "name": "Current (°T)",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|13c98520-dc20-412a-9947-2fcb023dc677",
+            "unit": "m"
+            }
+            ],
+            "showOptions": true,
+            "showAutoScaleEnableYAxis": true,
+            "showLegend": false,
+            "showOptionsAlerts": true,
+            "showOptionsLegendCheckbox": false,
+            "showOptionsScaling": false,
+            "showOptionsSeries": true,
+            "showOptionsUnits": false,
+            "showOptionsXAxis": false,
+            "showOptionsXAxisTime": true,
+            "showOptionsYAxis": true,
+            "pointRadius": 0.0,
+            "pointHitRadius": 5.0,
+            "lineTension": 0.0,
+            "axisLimitValuesDecimals": 3.0,
+            "xAxisUnit": "minutes",
+            "yAxisMin": 0.0,
+            "yAxisMax": 360.0,
+            "yAxisMinDefault": 0.0,
+            "yAxisMaxDefault": 360.0,
+            "yAxisMinLimit": 0.0,
+            "yAxisMaxLimit": 360.0,
+            "yAxisIncrement": 1.0,
+            "yAxisScaling": "linear",
+            "yAxisAutoScaling": false,
+            "yAxisUnit": "Degrees",
+            "metric": [
+            "m"
+            ],
+            "beaufortScale": false,
+            "directionText": false,
+            "showUnits": false,
+            "borderStyle": [
+            "solid"
+            ],
+            "chartName": "3e86becc-5fd6-43d5-8452-db6e6dcfb15a_5"
+            }
+            }
+            },
+            "2": {
+            "name": "Wave",
+            "visible": true,
+            "template": "Timechart3PolarPointComponent",
+            "settings": {
+            "chart1Title": "Wave height",
+            "chart1": {
+            "showAutoScaleEnableYAxisMinZero": true,
+            "chartRedrawFrequency": 40.0,
+            "xAxisTooltipValueFormatter": "0.2-2",
+            "yAxisTooltipValueFormatter": "0.2-2",
+            "historyTimeQuantity": 1.0,
+            "historyTimeUnit": "hours",
+            "xAxisStepSize": 10.0,
+            "yAxisStepSize": "NaN",
+            "yAxisAutoScalingMinZero": true,
+            "alertLimits": [
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            },
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            }
+            ],
+            "imperialUnits": [
+            "ft",
+            "ft"
+            ],
+            "series": [
+            {
+            "color": "#139835",
+            "format": "1.1-1",
+            "name": "Maximum wave height (m)",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|cd79ccae-6db5-4115-aa18-d6494445ddf1",
+            "unit": "m"
+            },
+            {
+            "color": "#139835",
+            "format": "1.1-1",
+            "name": "Significant wave height (m)",
+            "styleDashed": {
+            "gap": 5,
+            "length": 5
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|65b4da96-60e7-41f2-900b-35ae3ba81dde",
+            "unit": "m"
+            }
+            ],
+            "showOptions": true,
+            "showAutoScaleEnableYAxis": true,
+            "showLegend": false,
+            "showOptionsAlerts": true,
+            "showOptionsLegendCheckbox": false,
+            "showOptionsScaling": false,
+            "showOptionsSeries": true,
+            "showOptionsUnits": false,
+            "showOptionsXAxis": false,
+            "showOptionsXAxisTime": true,
+            "showOptionsYAxis": true,
+            "pointRadius": 0.0,
+            "pointHitRadius": 5.0,
+            "lineTension": 0.0,
+            "axisLimitValuesDecimals": 3.0,
+            "xAxisUnit": "minutes",
+            "yAxisMin": 0.0,
+            "yAxisMax": 30.0,
+            "yAxisMinDefault": 0.0,
+            "yAxisMaxDefault": 30.0,
+            "yAxisMinLimit": 0.0,
+            "yAxisMaxLimit": 30.0,
+            "yAxisIncrement": 1.0,
+            "yAxisScaling": "linear",
+            "yAxisAutoScaling": false,
+            "yAxisUnit": "Meters",
+            "metric": [
+            "m",
+            "m"
+            ],
+            "beaufortScale": false,
+            "directionText": false,
+            "showUnits": false,
+            "borderStyle": [
+            "solid",
+            "dashed"
+            ],
+            "chartName": "bf93d88c-c211-4850-8efa-eaebd6dd1e4b_1"
+            },
+            "chart2Title": "Wave period",
+            "chart2": {
+            "showAutoScaleEnableYAxisMinZero": true,
+            "chartRedrawFrequency": 40.0,
+            "xAxisTooltipValueFormatter": "0.2-2",
+            "yAxisTooltipValueFormatter": "0.2-2",
+            "historyTimeQuantity": 1.0,
+            "historyTimeUnit": "hours",
+            "xAxisStepSize": 10.0,
+            "yAxisStepSize": "NaN",
+            "yAxisAutoScalingMinZero": true,
+            "alertLimits": [
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            },
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            }
+            ],
+            "imperialUnits": [
+            "",
+            ""
+            ],
+            "series": [
+            {
+            "color": "#139835",
+            "format": "1.1-1",
+            "name": "Primary wave peak period (s)",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|53eb3b3a-965b-4872-b21d-0f3bb92dcd91",
+            "unit": "s"
+            },
+            {
+            "color": "#139835",
+            "format": "1.1-1",
+            "name": "Mean zero up-crossing period (s)",
+            "styleDashed": {
+            "gap": 5,
+            "length": 5
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|49176b83-eea5-453d-8ae9-d37ec458870d",
+            "unit": "s"
+            }
+            ],
+            "showOptions": true,
+            "showAutoScaleEnableYAxis": true,
+            "showLegend": false,
+            "showOptionsAlerts": true,
+            "showOptionsLegendCheckbox": false,
+            "showOptionsScaling": false,
+            "showOptionsSeries": true,
+            "showOptionsUnits": false,
+            "showOptionsXAxis": false,
+            "showOptionsXAxisTime": true,
+            "showOptionsYAxis": true,
+            "pointRadius": 0.0,
+            "pointHitRadius": 5.0,
+            "lineTension": 0.0,
+            "axisLimitValuesDecimals": 3.0,
+            "xAxisUnit": "minutes",
+            "yAxisMin": 0.0,
+            "yAxisMax": 30.0,
+            "yAxisMinDefault": 0.0,
+            "yAxisMaxDefault": 30.0,
+            "yAxisMinLimit": 0.0,
+            "yAxisMaxLimit": 30.0,
+            "yAxisIncrement": 1.0,
+            "yAxisScaling": "linear",
+            "yAxisAutoScaling": false,
+            "yAxisUnit": "Seconds",
+            "metric": [
+            "s",
+            "s"
+            ],
+            "beaufortScale": false,
+            "directionText": false,
+            "showUnits": false,
+            "borderStyle": [
+            "solid",
+            "dashed"
+            ],
+            "chartName": "bf93d88c-c211-4850-8efa-eaebd6dd1e4b_2"
+            },
+            "chart3Title": "Wave direction",
+            "chart3": {
+            "showAutoScaleEnableYAxisMinZero": false,
+            "chartRedrawFrequency": 40.0,
+            "xAxisTooltipValueFormatter": "0.2-2",
+            "yAxisTooltipValueFormatter": "0.2-2",
+            "historyTimeQuantity": 1.0,
+            "historyTimeUnit": "hours",
+            "xAxisStepSize": 10.0,
+            "yAxisStepSize": 90.0,
+            "yAxisAutoScalingMinZero": false,
+            "alertLimits": [
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            },
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            }
+            ],
+            "imperialUnits": [
+            "",
+            ""
+            ],
+            "series": [
+            {
+            "color": "#139835",
+            "format": "3.0-0",
+            "name": "Wave peak direction (°T)",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|0da88463-cd7b-4311-b361-5ced9e70524a",
+            "unit": "�"
+            },
+            {
+            "color": "#139835",
+            "format": "3.0-0",
+            "name": "Wave mean direction (°T)",
+            "styleDashed": {
+            "gap": 5,
+            "length": 5
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|b588998e-c1b2-48b8-af11-f0919c6b068a",
+            "unit": "�"
+            }
+            ],
+            "showOptions": true,
+            "showAutoScaleEnableYAxis": true,
+            "showLegend": false,
+            "showOptionsAlerts": false,
+            "showOptionsLegendCheckbox": false,
+            "showOptionsScaling": false,
+            "showOptionsSeries": true,
+            "showOptionsUnits": false,
+            "showOptionsXAxis": false,
+            "showOptionsXAxisTime": true,
+            "showOptionsYAxis": true,
+            "pointRadius": 0.0,
+            "pointHitRadius": 5.0,
+            "lineTension": 0.0,
+            "axisLimitValuesDecimals": 3.0,
+            "xAxisUnit": "minutes",
+            "yAxisMin": 0.0,
+            "yAxisMax": 360.0,
+            "yAxisMinDefault": 0.0,
+            "yAxisMaxDefault": 360.0,
+            "yAxisMinLimit": 0.0,
+            "yAxisMaxLimit": 360.0,
+            "yAxisIncrement": 1.0,
+            "yAxisScaling": "linear",
+            "yAxisAutoScaling": false,
+            "yAxisUnit": "Degrees",
+            "metric": [
+            "�",
+            "�"
+            ],
+            "beaufortScale": false,
+            "directionText": true,
+            "showUnits": false,
+            "borderStyle": [
+            "solid",
+            "dashed"
+            ],
+            "chartName": "bf93d88c-c211-4850-8efa-eaebd6dd1e4b_3"
+            },
+            "polar4Title": "Directional wave spectrum",
+            "polar4": {
+            "directionMarker": [
+            {
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|b588998e-c1b2-48b8-af11-f0919c6b068a",
+            "color": "#139835",
+            "marker": "A",
+            "label": "Wave"
+            },
+            {
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|13c98520-dc20-412a-9947-2fcb023dc677",
+            "color": "#69518E",
+            "marker": "C1",
+            "label": "Current"
+            }
+            ],
+            "axisLine": {
+            "showRings": true,
+            "showAxis": true
+            },
+            "spectrumContour": {
+            "parameter": "LD1-003",
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|92c32275-e5e2-452a-a353-6a92e35a4905"
+            },
+            "headingMarker": {
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|78014720-7ab2-4666-ab09-bb1bfceccf71"
+            },
+            "polarName": "bf93d88c-c211-4850-8efa-eaebd6dd1e4b_4"
+            },
+            "chart5Title": "Wave spectrum",
+            "chart5": {
+            "showAutoScaleEnableXAxis": false,
+            "showUnitsButton": false,
+            "frequencyResolutionTag": "164a6212-3b81-4b01-a6bc-b4a24cf1309d",
+            "isSpectrumChart": true,
+            "xAxisMin": 0.03,
+            "xAxisMax": 0.3,
+            "xAxisMinDefault": 0.0,
+            "xAxisMaxDefault": 0.3,
+            "xAxisMinLimit": 0.0,
+            "xAxisMaxLimit": 0.5,
+            "xAxisIncrement": 0.01,
+            "xAxisAutoScaling": false,
+            "dataValues": {
+            "dataType": "other",
+            "chartUnit": "",
+            "metricUnitLabel": "",
+            "imperialUnitLabel": ""
+            },
+            "series": [
+            {
+            "color": "#139835",
+            "name": "Point spectrum",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|d78d355d-72bc-46d2-847d-20d5fed0c74d"
+            }
+            ],
+            "showOptions": true,
+            "showAutoScaleEnableYAxis": true,
+            "showLegend": false,
+            "showOptionsAlerts": false,
+            "showOptionsLegendCheckbox": false,
+            "showOptionsScaling": false,
+            "showOptionsSeries": true,
+            "showOptionsUnits": true,
+            "showOptionsXAxis": true,
+            "showOptionsXAxisTime": false,
+            "showOptionsYAxis": true,
+            "pointRadius": 0.0,
+            "pointHitRadius": 5.0,
+            "lineTension": 0.0,
+            "axisLimitValuesDecimals": 3.0,
+            "xAxisUnit": "Hz",
+            "yAxisMin": 0.0,
+            "yAxisMax": 200.0,
+            "yAxisMinDefault": 0.0,
+            "yAxisMaxDefault": 200.0,
+            "yAxisMinLimit": 0.0,
+            "yAxisMaxLimit": 1000.0,
+            "yAxisIncrement": 10.0,
+            "yAxisScaling": "linear",
+            "yAxisAutoScaling": true,
+            "yAxisUnit": "m² / Hertz",
+            "beaufortScale": false,
+            "directionText": false,
+            "showUnits": false,
+            "chartName": "bf93d88c-c211-4850-8efa-eaebd6dd1e4b_5"
+            }
+            }
+            },
+            "4": {
+            "name": "STW (knots)",
+            "visible": true,
+            "template": "Timechart3PolarTimechartComponent",
+            "settings": {
+            "chart1Title": "Speed",
+            "chart1": {
+            "showAutoScaleEnableYAxisMinZero": true,
+            "chartRedrawFrequency": 40.0,
+            "xAxisTooltipValueFormatter": "0.2-2",
+            "yAxisTooltipValueFormatter": "0.2-2",
+            "historyTimeQuantity": 1.0,
+            "historyTimeUnit": "hours",
+            "xAxisStepSize": 10.0,
+            "yAxisStepSize": "NaN",
+            "yAxisAutoScalingMinZero": false,
+            "convert": true,
+            "alertLimits": [
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            },
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            }
+            ],
+            "dataValues": {
+            "dataType": "speed",
+            "chartUnit": "kn",
+            "metricUnitLabel": "Meters / Second",
+            "imperialUnitLabel": "Knots"
+            },
+            "imperialUnits": [
+            "knots",
+            "knots"
+            ],
+            "series": [
+            {
+            "color": "#888888",
+            "format": "1.2-2",
+            "name": "SOG",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|6dd2abcc-3931-4d2e-a6ec-ef4e2c7d824c",
+            "unit": "m/s"
+            },
+            {
+            "color": "#cac413",
+            "format": "1.2-2",
+            "name": "STW",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|2f5b71df-5cb2-48ff-8ee7-14dba58cb804",
+            "unit": "m/s"
+            }
+            ],
+            "showOptions": true,
+            "showAutoScaleEnableYAxis": true,
+            "showLegend": false,
+            "showOptionsAlerts": true,
+            "showOptionsLegendCheckbox": false,
+            "showOptionsScaling": false,
+            "showOptionsSeries": true,
+            "showOptionsUnits": false,
+            "showOptionsXAxis": false,
+            "showOptionsXAxisTime": true,
+            "showOptionsYAxis": true,
+            "pointRadius": 0.0,
+            "pointHitRadius": 5.0,
+            "lineTension": 0.0,
+            "axisLimitValuesDecimals": 3.0,
+            "xAxisUnit": "minutes",
+            "yAxisMin": 0.0,
+            "yAxisMax": 30.0,
+            "yAxisMinDefault": 0.0,
+            "yAxisMaxDefault": 30.0,
+            "yAxisMinLimit": 0.0,
+            "yAxisMaxLimit": 30.0,
+            "yAxisIncrement": 1.0,
+            "yAxisScaling": "linear",
+            "yAxisAutoScaling": true,
+            "yAxisUnit": "Meters / Second",
+            "seriesFixedTextSize": [
+            false,
+            false
+            ],
+            "metric": [
+            "m/s",
+            "m/s"
+            ],
+            "beaufortScale": false,
+            "directionText": false,
+            "showUnits": false,
+            "borderStyle": [
+            "solid",
+            "solid"
+            ],
+            "chartName": "9568a76a-450c-4719-8f3d-1644ae448649_1"
+            },
+            "chart2Title": "Course",
+            "chart2": {
+            "showAutoScaleEnableYAxisMinZero": true,
+            "chartRedrawFrequency": 40.0,
+            "xAxisTooltipValueFormatter": "0.2-2",
+            "yAxisTooltipValueFormatter": "0.2-2",
+            "historyTimeQuantity": 1.0,
+            "historyTimeUnit": "hours",
+            "xAxisStepSize": 10.0,
+            "yAxisStepSize": 90.0,
+            "yAxisAutoScalingMinZero": false,
+            "alertLimits": [
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            },
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            }
+            ],
+            "imperialUnits": [
+            "ft",
+            "ft"
+            ],
+            "series": [
+            {
+            "color": "#888888",
+            "format": "3.0-0",
+            "name": "COG (°T)",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|08cedb1e-28a1-44f3-90bb-e1cbba0c538e",
+            "unit": "m"
+            },
+            {
+            "color": "#cac413",
+            "format": "3.0-0",
+            "name": "CTW (°T)",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|6815ec54-35ec-42cd-a9b0-8b55429c8ae6",
+            "unit": "m"
+            }
+            ],
+            "showOptions": true,
+            "showAutoScaleEnableYAxis": true,
+            "showLegend": false,
+            "showOptionsAlerts": true,
+            "showOptionsLegendCheckbox": false,
+            "showOptionsScaling": false,
+            "showOptionsSeries": true,
+            "showOptionsUnits": false,
+            "showOptionsXAxis": false,
+            "showOptionsXAxisTime": true,
+            "showOptionsYAxis": true,
+            "pointRadius": 0.0,
+            "pointHitRadius": 5.0,
+            "lineTension": 0.0,
+            "axisLimitValuesDecimals": 3.0,
+            "xAxisUnit": "minutes",
+            "yAxisMin": 0.0,
+            "yAxisMax": 360.0,
+            "yAxisMinDefault": 0.0,
+            "yAxisMaxDefault": 360.0,
+            "yAxisMinLimit": 0.0,
+            "yAxisMaxLimit": 360.0,
+            "yAxisIncrement": 1.0,
+            "yAxisScaling": "linear",
+            "yAxisAutoScaling": true,
+            "yAxisUnit": "Degrees",
+            "seriesFixedTextSize": [
+            false,
+            false
+            ],
+            "metric": [
+            "m",
+            "m"
+            ],
+            "beaufortScale": false,
+            "directionText": false,
+            "showUnits": false,
+            "borderStyle": [
+            "solid",
+            "solid"
+            ],
+            "chartName": "9568a76a-450c-4719-8f3d-1644ae448649_2"
+            },
+            "polar4Title": "Directional wave spectrum",
+            "polar4": {
+            "directionMarker": [
+            {
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|b588998e-c1b2-48b8-af11-f0919c6b068a",
+            "color": "#139835",
+            "marker": "A",
+            "label": "Wave"
+            },
+            {
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|13c98520-dc20-412a-9947-2fcb023dc677",
+            "color": "#69518E",
+            "marker": "C1",
+            "label": "Current"
+            },
+            {
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|dbf66c00-9f12-4636-82a9-5016bfa38ed0",
+            "color": "#1c99e6",
+            "marker": "B",
+            "label": "Wind"
+            },
+            {
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|6815ec54-35ec-42cd-a9b0-8b55429c8ae6",
+            "color": "#cac413",
+            "marker": "D1",
+            "label": "CTW"
+            }
+            ],
+            "axisLine": {
+            "showRings": true,
+            "showAxis": true
+            },
+            "spectrumContour": {
+            "parameter": "LD1-003",
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|92c32275-e5e2-452a-a353-6a92e35a4905"
+            },
+            "headingMarker": {
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|78014720-7ab2-4666-ab09-bb1bfceccf71"
+            },
+            "polarName": "9568a76a-450c-4719-8f3d-1644ae448649_4"
+            },
+            "chart3Title": "Current speed",
+            "chart3": {
+            "showAutoScaleEnableYAxisMinZero": true,
+            "chartRedrawFrequency": 40.0,
+            "xAxisTooltipValueFormatter": "0.2-2",
+            "yAxisTooltipValueFormatter": "0.2-2",
+            "historyTimeQuantity": 1.0,
+            "historyTimeUnit": "hours",
+            "xAxisStepSize": 10.0,
+            "yAxisStepSize": "NaN",
+            "yAxisAutoScalingMinZero": true,
+            "convert": true,
+            "alertLimits": [
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            }
+            ],
+            "dataValues": {
+            "dataType": "speed",
+            "chartUnit": "kn",
+            "metricUnitLabel": "Meters / Second",
+            "imperialUnitLabel": "Knots"
+            },
+            "imperialUnits": [
+            "knots"
+            ],
+            "series": [
+            {
+            "color": "#69518e",
+            "format": "1.2-2",
+            "name": "Current",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|48a5fc8b-f739-454f-ac91-ffe81595fc2e",
+            "unit": "m/s"
+            }
+            ],
+            "showOptions": true,
+            "showAutoScaleEnableYAxis": true,
+            "showLegend": false,
+            "showOptionsAlerts": true,
+            "showOptionsLegendCheckbox": false,
+            "showOptionsScaling": false,
+            "showOptionsSeries": true,
+            "showOptionsUnits": false,
+            "showOptionsXAxis": false,
+            "showOptionsXAxisTime": true,
+            "showOptionsYAxis": true,
+            "pointRadius": 0.0,
+            "pointHitRadius": 5.0,
+            "lineTension": 0.0,
+            "axisLimitValuesDecimals": 3.0,
+            "xAxisUnit": "minutes",
+            "yAxisMin": 0.0,
+            "yAxisMax": 30.0,
+            "yAxisMinDefault": 0.0,
+            "yAxisMaxDefault": 30.0,
+            "yAxisMinLimit": 0.0,
+            "yAxisMaxLimit": 30.0,
+            "yAxisIncrement": 1.0,
+            "yAxisScaling": "linear",
+            "yAxisAutoScaling": false,
+            "yAxisUnit": "Meters",
+            "seriesFixedTextSize": [
+            false
+            ],
+            "metric": [
+            "m/s"
+            ],
+            "beaufortScale": false,
+            "directionText": false,
+            "showUnits": false,
+            "borderStyle": [
+            "solid"
+            ],
+            "chartName": "9568a76a-450c-4719-8f3d-1644ae448649_3"
+            },
+            "chart5Title": "Current direction",
+            "chart5": {
+            "showAutoScaleEnableYAxisMinZero": true,
+            "chartRedrawFrequency": 40.0,
+            "xAxisTooltipValueFormatter": "0.2-2",
+            "yAxisTooltipValueFormatter": "0.2-2",
+            "historyTimeQuantity": 1.0,
+            "historyTimeUnit": "hours",
+            "xAxisStepSize": 10.0,
+            "yAxisStepSize": 90.0,
+            "yAxisAutoScalingMinZero": false,
+            "alertLimits": [
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            }
+            ],
+            "imperialUnits": [
+            "ft"
+            ],
+            "series": [
+            {
+            "color": "#69518e",
+            "format": "3.0-0",
+            "name": "Current (°T)",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|13c98520-dc20-412a-9947-2fcb023dc677",
+            "unit": "m"
+            }
+            ],
+            "showOptions": true,
+            "showAutoScaleEnableYAxis": true,
+            "showLegend": false,
+            "showOptionsAlerts": true,
+            "showOptionsLegendCheckbox": false,
+            "showOptionsScaling": false,
+            "showOptionsSeries": true,
+            "showOptionsUnits": false,
+            "showOptionsXAxis": false,
+            "showOptionsXAxisTime": true,
+            "showOptionsYAxis": true,
+            "pointRadius": 0.0,
+            "pointHitRadius": 5.0,
+            "lineTension": 0.0,
+            "axisLimitValuesDecimals": 3.0,
+            "xAxisUnit": "minutes",
+            "yAxisMin": 0.0,
+            "yAxisMax": 360.0,
+            "yAxisMinDefault": 0.0,
+            "yAxisMaxDefault": 360.0,
+            "yAxisMinLimit": 0.0,
+            "yAxisMaxLimit": 360.0,
+            "yAxisIncrement": 1.0,
+            "yAxisScaling": "linear",
+            "yAxisAutoScaling": false,
+            "yAxisUnit": "Degrees",
+            "seriesFixedTextSize": [
+            false
+            ],
+            "metric": [
+            "m"
+            ],
+            "beaufortScale": false,
+            "directionText": false,
+            "showUnits": false,
+            "borderStyle": [
+            "solid"
+            ],
+            "chartName": "9568a76a-450c-4719-8f3d-1644ae448649_5"
+            }
+            }
+            },
+            "5": {
+            "name": "Vessel and weather",
+            "visible": true,
+            "template": "Timechart4PolarTimechartComponent",
+            "settings": {
+            "chart1Title": "Vessel speed",
+            "chart1": {
+            "showAutoScaleEnableYAxisMinZero": true,
+            "chartRedrawFrequency": 40.0,
+            "xAxisTooltipValueFormatter": "0.2-2",
+            "yAxisTooltipValueFormatter": "0.2-2",
+            "historyTimeQuantity": 1.0,
+            "historyTimeUnit": "hours",
+            "xAxisStepSize": 10.0,
+            "yAxisStepSize": 10.0,
+            "yAxisAutoScalingMinZero": false,
+            "convert": true,
+            "alertLimits": [
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            },
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            }
+            ],
+            "imperialUnits": [
+            "knots",
+            "knots"
+            ],
+            "series": [
+            {
+            "color": "#888888",
+            "format": "0.2-2",
+            "name": "SOG (kn)",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|6dd2abcc-3931-4d2e-a6ec-ef4e2c7d824c",
+            "unit": "knots"
+            },
+            {
+            "color": "#cac413",
+            "format": "0.2-2",
+            "name": "STW (kn)",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|2f5b71df-5cb2-48ff-8ee7-14dba58cb804",
+            "unit": "knots"
+            }
+            ],
+            "showOptions": true,
+            "showAutoScaleEnableYAxis": true,
+            "showLegend": false,
+            "showOptionsAlerts": false,
+            "showOptionsLegendCheckbox": false,
+            "showOptionsScaling": false,
+            "showOptionsSeries": true,
+            "showOptionsUnits": false,
+            "showOptionsXAxis": false,
+            "showOptionsXAxisTime": true,
+            "showOptionsYAxis": true,
+            "pointRadius": 0.0,
+            "pointHitRadius": 5.0,
+            "lineTension": 0.0,
+            "axisLimitValuesDecimals": 3.0,
+            "xAxisUnit": "minutes",
+            "yAxisMin": 0.0,
+            "yAxisMax": 50.0,
+            "yAxisMinDefault": 0.0,
+            "yAxisMaxDefault": 50.0,
+            "yAxisMinLimit": 0.0,
+            "yAxisMaxLimit": 50.0,
+            "yAxisIncrement": 1.0,
+            "yAxisScaling": "linear",
+            "yAxisAutoScaling": true,
+            "yAxisUnit": "Knots",
+            "metric": [
+            "m/s",
+            "m/s"
+            ],
+            "beaufortScale": false,
+            "directionText": false,
+            "showUnits": false,
+            "borderStyle": [
+            "solid",
+            "solid"
+            ],
+            "chartName": "275bbb43-711c-45a0-84dc-52cbc0904aeb_1"
+            },
+            "chart2Title": "Current speed",
+            "chart2": {
+            "showAutoScaleEnableYAxisMinZero": true,
+            "chartRedrawFrequency": 40.0,
+            "xAxisTooltipValueFormatter": "0.2-2",
+            "yAxisTooltipValueFormatter": "0.2-2",
+            "historyTimeQuantity": 1.0,
+            "historyTimeUnit": "hours",
+            "xAxisStepSize": 10.0,
+            "yAxisStepSize": 10.0,
+            "yAxisAutoScalingMinZero": false,
+            "convert": true,
+            "alertLimits": [
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            },
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            }
+            ],
+            "imperialUnits": [
+            "knots",
+            "knots"
+            ],
+            "series": [
+            {
+            "color": "#69518e",
+            "format": "0.2-2",
+            "name": "Current speed (kn)",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|48a5fc8b-f739-454f-ac91-ffe81595fc2e",
+            "unit": "knots"
+            },
+            {
+            "color": "#69518e",
+            "format": "0.2-2",
+            "name": "Current effect (kn)",
+            "styleDashed": {
+            "gap": 5,
+            "length": 5
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|f6b0b8c6-a53b-4a3f-b1a3-4b5c5d8c8aea",
+            "unit": "knots"
+            }
+            ],
+            "showOptions": true,
+            "showAutoScaleEnableYAxis": true,
+            "showLegend": false,
+            "showOptionsAlerts": false,
+            "showOptionsLegendCheckbox": false,
+            "showOptionsScaling": false,
+            "showOptionsSeries": true,
+            "showOptionsUnits": false,
+            "showOptionsXAxis": false,
+            "showOptionsXAxisTime": true,
+            "showOptionsYAxis": true,
+            "pointRadius": 0.0,
+            "pointHitRadius": 5.0,
+            "lineTension": 0.0,
+            "axisLimitValuesDecimals": 3.0,
+            "xAxisUnit": "minutes",
+            "yAxisMin": -10.0,
+            "yAxisMax": 50.0,
+            "yAxisMinDefault": -10.0,
+            "yAxisMaxDefault": 50.0,
+            "yAxisMinLimit": -10.0,
+            "yAxisMaxLimit": 50.0,
+            "yAxisIncrement": 1.0,
+            "yAxisScaling": "linear",
+            "yAxisAutoScaling": true,
+            "yAxisUnit": "Knots",
+            "metric": [
+            "m/s",
+            "m/s"
+            ],
+            "beaufortScale": false,
+            "directionText": false,
+            "showUnits": false,
+            "borderStyle": [
+            "solid",
+            "dashed"
+            ],
+            "chartName": "275bbb43-711c-45a0-84dc-52cbc0904aeb_2"
+            },
+            "chart3Title": "Wind speed",
+            "chart3": {
+            "showAutoScaleEnableYAxisMinZero": true,
+            "chartRedrawFrequency": 40.0,
+            "xAxisTooltipValueFormatter": "0.2-2",
+            "yAxisTooltipValueFormatter": "0.2-2",
+            "historyTimeQuantity": 1.0,
+            "historyTimeUnit": "hours",
+            "xAxisStepSize": 10.0,
+            "yAxisStepSize": 10.0,
+            "yAxisAutoScalingMinZero": true,
+            "alertLimits": [
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            }
+            ],
+            "imperialUnits": [
+            "knots"
+            ],
+            "series": [
+            {
+            "color": "#1c99e6",
+            "format": "0.2-2",
+            "name": "Wind (kn)",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|663167af-e083-4fa1-bf93-d0ca0d709a64",
+            "unit": "knots"
+            }
+            ],
+            "showOptions": true,
+            "showAutoScaleEnableYAxis": true,
+            "showLegend": false,
+            "showOptionsAlerts": false,
+            "showOptionsLegendCheckbox": false,
+            "showOptionsScaling": false,
+            "showOptionsSeries": true,
+            "showOptionsUnits": false,
+            "showOptionsXAxis": false,
+            "showOptionsXAxisTime": true,
+            "showOptionsYAxis": true,
+            "pointRadius": 0.0,
+            "pointHitRadius": 5.0,
+            "lineTension": 0.0,
+            "axisLimitValuesDecimals": 3.0,
+            "xAxisUnit": "minutes",
+            "yAxisMin": 0.0,
+            "yAxisMax": 50.0,
+            "yAxisMinDefault": 0.0,
+            "yAxisMaxDefault": 50.0,
+            "yAxisMinLimit": 0.0,
+            "yAxisMaxLimit": 50.0,
+            "yAxisIncrement": 1.0,
+            "yAxisScaling": "linear",
+            "yAxisAutoScaling": false,
+            "yAxisUnit": "Knots",
+            "metric": [
+            "m/s"
+            ],
+            "beaufortScale": false,
+            "directionText": false,
+            "showUnits": false,
+            "borderStyle": [
+            "solid"
+            ],
+            "chartName": "275bbb43-711c-45a0-84dc-52cbc0904aeb_3"
+            },
+            "chart4Title": "Wave height",
+            "chart4": {
+            "showAutoScaleEnableYAxisMinZero": true,
+            "chartRedrawFrequency": 40.0,
+            "xAxisTooltipValueFormatter": "0.2-2",
+            "yAxisTooltipValueFormatter": "0.2-2",
+            "historyTimeQuantity": 1.0,
+            "historyTimeUnit": "hours",
+            "xAxisStepSize": 10.0,
+            "yAxisStepSize": 10.0,
+            "yAxisAutoScalingMinZero": true,
+            "alertLimits": [
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            },
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            }
+            ],
+            "dataValues": {
+            "dataType": "speed",
+            "chartUnit": "kn",
+            "metricUnitLabel": "Meters",
+            "imperialUnitLabel": "Knots"
+            },
+            "imperialUnits": [
+            "ft",
+            "ft"
+            ],
+            "series": [
+            {
+            "color": "#139835",
+            "format": "1.1-1",
+            "name": "Maximum wave height (m)",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|cd79ccae-6db5-4115-aa18-d6494445ddf1",
+            "unit": "m"
+            },
+            {
+            "color": "#139835",
+            "format": "1.1-1",
+            "name": "Significant wave height (m)",
+            "styleDashed": {
+            "gap": 5,
+            "length": 5
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|65b4da96-60e7-41f2-900b-35ae3ba81dde",
+            "unit": "m"
+            }
+            ],
+            "showOptions": true,
+            "showAutoScaleEnableYAxis": true,
+            "showLegend": false,
+            "showOptionsAlerts": true,
+            "showOptionsLegendCheckbox": false,
+            "showOptionsScaling": false,
+            "showOptionsSeries": true,
+            "showOptionsUnits": false,
+            "showOptionsXAxis": false,
+            "showOptionsXAxisTime": true,
+            "showOptionsYAxis": true,
+            "pointRadius": 0.0,
+            "pointHitRadius": 5.0,
+            "lineTension": 0.0,
+            "axisLimitValuesDecimals": 3.0,
+            "xAxisUnit": "minutes",
+            "yAxisMin": 0.0,
+            "yAxisMax": 30.0,
+            "yAxisMinDefault": 0.0,
+            "yAxisMaxDefault": 30.0,
+            "yAxisMinLimit": 0.0,
+            "yAxisMaxLimit": 30.0,
+            "yAxisIncrement": 1.0,
+            "yAxisScaling": "linear",
+            "yAxisAutoScaling": true,
+            "yAxisUnit": "Meters",
+            "metric": [
+            "m",
+            "m"
+            ],
+            "beaufortScale": false,
+            "directionText": false,
+            "showUnits": false,
+            "borderStyle": [
+            "solid",
+            "dashed"
+            ],
+            "chartName": "275bbb43-711c-45a0-84dc-52cbc0904aeb_4"
+            },
+            "polar5Title": "Directions & Wave spectrum",
+            "polar5": {
+            "directionMarker": [
+            {
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|08cedb1e-28a1-44f3-90bb-e1cbba0c538e",
+            "color": "#888888",
+            "marker": "A10",
+            "label": "COG"
+            },
+            {
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|6815ec54-35ec-42cd-a9b0-8b55429c8ae6",
+            "color": "#cac413",
+            "marker": "D11",
+            "label": "CTW"
+            },
+            {
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|dbf66c00-9f12-4636-82a9-5016bfa38ed0",
+            "color": "#1c99e6",
+            "marker": "B",
+            "label": "Wind"
+            },
+            {
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|13c98520-dc20-412a-9947-2fcb023dc677",
+            "color": "#69518e",
+            "marker": "C1",
+            "label": "Curr"
+            },
+            {
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|0da88463-cd7b-4311-b361-5ced9e70524a",
+            "color": "#139835",
+            "marker": "A",
+            "label": "Wave"
+            }
+            ],
+            "axisLine": {
+            "showRings": true,
+            "showAxis": true
+            },
+            "spectrumContour": {
+            "parameter": "LD1-003",
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|92c32275-e5e2-452a-a353-6a92e35a4905",
+            "contourMinimum": 0.009
+            },
+            "headingMarker": {
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|644abe25-a6e0-4843-872a-73e3e641d466",
+            "courseParameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|08cedb1e-28a1-44f3-90bb-e1cbba0c538e"
+            },
+            "polarName": "275bbb43-711c-45a0-84dc-52cbc0904aeb_5"
+            },
+            "chart6Title": "Directions relative to heading",
+            "chart6": {
+            "showAutoScaleEnableYAxisMinZero": true,
+            "chartRedrawFrequency": 40.0,
+            "xAxisTooltipValueFormatter": "0.2-2",
+            "yAxisTooltipValueFormatter": "0.2-2",
+            "historyTimeQuantity": 1.0,
+            "historyTimeUnit": "hours",
+            "xAxisStepSize": 10.0,
+            "yAxisStepSize": 90.0,
+            "yAxisAutoScalingMinZero": false,
+            "yAxisThreeSixtyOffset": true,
+            "alertLimits": [
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            },
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            },
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            },
+            {
+            "visible": false,
+            "dangerValue": 5,
+            "warningValue": 3
+            }
+            ],
+            "imperialUnits": [
+            "ft",
+            "ft",
+            "ft",
+            "ft"
+            ],
+            "series": [
+            {
+            "color": "#cac413",
+            "format": "3.0-0",
+            "name": "CTW (°R)",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|3ed20d53-cd92-444e-83dd-f2cde13affbc",
+            "unit": "°R"
+            },
+            {
+            "color": "#1c99e6",
+            "format": "3.0-0",
+            "name": "Wind (°R)",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|58e8406f-5ab3-4169-9137-d0578e00c381",
+            "unit": "°R"
+            },
+            {
+            "color": "#69518e",
+            "format": "3.0-0",
+            "name": "Current (°R)",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|3af2d287-5504-4904-92ea-24ac7b1aed80",
+            "unit": "°R"
+            },
+            {
+            "color": "#139835",
+            "format": "3.0-0",
+            "name": "Primary wave (°R)",
+            "styleDashed": {
+            "gap": 0,
+            "length": 0
+            },
+            "parameterId": "4eb5a94e-2bec-4f74-fa0a-2c456ef0062d|a8a845d4-19a8-4208-b055-2c36474033c7",
+            "unit": "°R"
+            }
+            ],
+            "showOptions": true,
+            "showAutoScaleEnableYAxis": true,
+            "showLegend": false,
+            "showOptionsAlerts": false,
+            "showOptionsLegendCheckbox": false,
+            "showOptionsScaling": false,
+            "showOptionsSeries": true,
+            "showOptionsUnits": false,
+            "showOptionsXAxis": false,
+            "showOptionsXAxisTime": true,
+            "showOptionsYAxis": true,
+            "pointRadius": 0.0,
+            "pointHitRadius": 5.0,
+            "lineTension": 0.0,
+            "axisLimitValuesDecimals": 3.0,
+            "xAxisUnit": "minutes",
+            "yAxisMin": 0.0,
+            "yAxisMax": 360.0,
+            "yAxisMinDefault": 0.0,
+            "yAxisMaxDefault": 360.0,
+            "yAxisMinLimit": 0.0,
+            "yAxisMaxLimit": 360.0,
+            "yAxisIncrement": 1.0,
+            "yAxisScaling": "linear",
+            "yAxisAutoScaling": false,
+            "yAxisUnit": "STBD  -  PORT",
+            "metric": [
+            "m",
+            "m",
+            "m",
+            "m"
+            ],
+            "beaufortScale": false,
+            "directionText": false,
+            "showUnits": false,
+            "borderStyle": [
+            "solid",
+            "solid",
+            "solid",
+            "solid"
+            ],
+            "chartName": "275bbb43-711c-45a0-84dc-52cbc0904aeb_6"
+            }
+            }
+            }
+            },
+            "location": [
+            {
+            "latitude": -37.93664666666667,
+            "longitude": 136.886175,
+            "heading": 99.795316
+            }
+            ],
+            "organizations": [
+            "BW Dry Cargo"
+            ],
+            "publicAccess": false,
+            "id": "bef0083c-03ef-44f7-8d05-b22ff9e54d1e",
+            "name": "BW Rye",
+            "defaultPage": "1",
+            "visible": true
+            }
+    ]
 }

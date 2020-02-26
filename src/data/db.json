@@ -30,7 +30,37 @@
         "value": "10"
         }
     ],
-    "display": [
+    "userclaims": [
+        {
+        "item1": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",
+        "item2": "Mwiza Kumwenda"
+        },
+        {
+        "item1": "miros-group/user.id",
+        "item2": "85974a37-c92d-42b0-ba57-404069192f3a"
+        },
+        {
+        "item1": "miros-group/tenant.id",
+        "item2": "d6d095c3-8ecb-44e8-baa9-4dec0c6b5f4c"
+        },
+        {
+        "item1": "miros-group/organization.id",
+        "item2": "7466de2b-b99a-455c-9548-7ba0750911bf"
+        }
+        
+    ],
+    "settings": [
+        {
+            "goDirectlyToDisplay": false,
+            "showNavbarDisplayConfigToggle": false,
+            "showNavbarSiteSelect": true,
+            "enableDataExport": true,
+            "enableLogMessages": false,
+            "enableMonitor": false,
+            "enableHelpText": false
+            }
+    ],
+    "bwdisplay": [
         {
             "pages": {
             "1": {
@@ -2255,5 +2285,202 @@
             "defaultPage": "1",
             "visible": true
             }
-    ]
+    ],
+    "displays": [
+        {
+        "location": [
+        {
+        "latitude": 56.1736,
+        "longitude": -3.0192
+        }
+        ],
+        "organizations": [
+        "ORE Catapult"
+        ],
+        "publicAccess": false,
+        "id": "89e3a90d-5be7-4087-893a-af3e6fab75eb",
+        "name": "ORE Catapult Levenmouth",
+        "defaultPage": "1",
+        "visible": true
+        },
+        {
+        "location": [
+        {
+        "latitude": 59.856677,
+        "longitude": 10.649813
+        }
+        ],
+        "organizations": [
+        "Miros AS"
+        ],
+        "publicAccess": true,
+        "id": "9a893b1d-01bd-4f1a-8b7a-495e26ad429d",
+        "name": "Flaskebekk",
+        "defaultPage": "1",
+        "visible": true
+        },
+        {
+        "location": [
+        {
+        "latitude": -38.44990666666666,
+        "longitude": 141.19281333333336,
+        "heading": 93.703571
+        }
+        ],
+        "organizations": [
+        "BW Dry Cargo"
+        ],
+        "publicAccess": false,
+        "id": "bef0083c-03ef-44f7-8d05-b22ff9e54d1e",
+        "name": "BW Rye",
+        "defaultPage": "1",
+        "visible": true
+        },
+        {
+        "location": [
+        {
+        "latitude": 59.3372842,
+        "longitude": 5.1911452
+        }
+        ],
+        "organizations": [
+        "Equinor ASA"
+        ],
+        "publicAccess": false,
+        "id": "75f0a451-b590-42dc-b6d5-ab835540b564",
+        "name": "Kalstø",
+        "defaultPage": "1",
+        "visible": true
+        },
+        {
+        "location": [
+        {
+        "latitude": 59.832749,
+        "longitude": 10.415457
+        }
+        ],
+        "organizations": [
+        "Miros AS"
+        ],
+        "publicAccess": false,
+        "id": "4712a315-61cf-4b9e-9116-53d7b468f382",
+        "name": "Solbråveien",
+        "defaultPage": "1",
+        "visible": true
+        },
+        {
+        "location": [],
+        "organizations": [
+        "Miros AS"
+        ],
+        "publicAccess": false,
+        "id": "07deb5c1-0849-484e-a171-3c78be0510bb",
+        "name": "Wavex6.test.miros.local",
+        "defaultPage": "1",
+        "visible": true
+        },
+        {
+        "location": [],
+        "organizations": [
+        "Miros AS"
+        ],
+        "publicAccess": false,
+        "id": "cbddf307-508d-4ab9-aa3b-7285c67aa2df",
+        "name": "Wavex Demo",
+        "defaultPage": "1",
+        "visible": true
+        },
+        {
+        "location": [
+        {
+        "latitude": 59.832749,
+        "longitude": 10.415457
+        }
+        ],
+        "organizations": [
+        "Miros AS"
+        ],
+        "publicAccess": false,
+        "id": "a5931bd8-f572-461e-afb8-26611b8af777",
+        "name": "Wavex Roof Radar",
+        "defaultPage": "1",
+        "visible": true
+        },
+        {
+        "location": [
+        {
+        "latitude": 59.832749,
+        "longitude": 10.415457
+        }
+        ],
+        "organizations": [
+        "Miros AS"
+        ],
+        "publicAccess": false,
+        "id": "850be107-4c34-4900-8e26-96abdf4e3db8",
+        "name": "Wavex Wärtsilä IP",
+        "defaultPage": "1",
+        "visible": true
+        },
+        {
+        "location": [
+        {
+        "latitude": 59.832749,
+        "longitude": 10.415457
+        }
+        ],
+        "organizations": [
+        "Miros AS"
+        ],
+        "publicAccess": false,
+        "id": "9f67a869-4c8c-40dd-ae7a-93a2d8342c30",
+        "name": "Wavex Flex test",
+        "defaultPage": "1",
+        "visible": true
+        },
+        {
+        "location": [],
+        "organizations": [
+        "Miros AS"
+        ],
+        "publicAccess": false,
+        "id": "08c23ccd-fbb6-4f28-9682-8d847a6a30fc",
+        "name": "Bolærne Wavex Furuno V-pol",
+        "defaultPage": "1",
+        "visible": true
+        },
+        {
+        "location": [],
+        "organizations": [
+        "Miros AS"
+        ],
+        "publicAccess": false,
+        "id": "3f282742-dbcb-4b32-ad9a-59d09f53985b",
+        "name": "Bolærne Wavex Furuno H-pol",
+        "defaultPage": "1",
+        "visible": true
+        },
+        {
+        "location": [],
+        "organizations": [
+        "Miros AS"
+        ],
+        "publicAccess": false,
+        "id": "d9794c61-1479-419e-9184-2178d153cfac",
+        "name": "Bolærne Wavex Terma IP radar",
+        "defaultPage": "1",
+        "visible": true
+        },
+        {
+        "location": [],
+        "organizations": [
+        "Miros AS"
+        ],
+        "publicAccess": false,
+        "id": "26b24f74-8363-4d37-8933-27ced1acd305",
+        "name": "Vessel Performance Management",
+        "defaultPage": "1",
+        "visible": true
+        }
+        ]
 }

@@ -1,0 +1,7 @@
+{
+    "/api/displays":"/displays",
+    "/api/config":"/config",
+    "/api/settings/frontend":"/settings",
+    "/api/displays/display/bef0083c-03ef-44f7-8d05-b22ff9e54d1e":"/bwdisplay",
+    "/api/user/claims":"/userclaims"
+}

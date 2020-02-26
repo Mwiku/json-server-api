@@ -30,6 +30,9 @@
         "value": "10"
         }
     ],
+    "locationtime": [{
+        "date": "2/26/2020 4:09:34 PM"
+        }],
     "userclaims": [
         {
         "item1": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",

@@ -30,9 +30,9 @@
         "value": "10"
         }
     ],
-    "locationtime": [{
-        "date": "2/26/2020 4:09:34 PM"
-        }],
+    "timezone": {
+        "timezone": "America/New_York"
+    },
     "userclaims": [
         {
         "item1": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",
@@ -2274,6 +2274,7 @@
             },
             "location": [
             {
+            "timezone":"mk",
             "latitude": -37.93664666666667,
             "longitude": 136.886175,
             "heading": 99.795316
@@ -2283,6 +2284,7 @@
             "BW Dry Cargo"
             ],
             "publicAccess": false,
+            "timeZone": "Europes/Oslo",
             "id": "bef0083c-03ef-44f7-8d05-b22ff9e54d1e",
             "name": "BW Rye",
             "defaultPage": "1",

@@ -40,8 +40,9 @@
         {"id":4, "name":"COM100", "description":"History of computer science and logic gates"}
     ],
     "change-log": [
-        {"UserId":"568D36E4-778C-43DC-B5AE-14DD354ADD93", "LogDate":"2018-05-23 12:51:02.600", "Title":"Trigger added: New Trigger 4422", "Description":"The following user was added:  Username: mmm Email:m@m.t", "PermissionId":"201"},
-        {"UserId":"568D36E4-778C-43DC-B5AE-14DD354ADD93", "LogDate":"2019-05-23 12:51:02.600", "Title":"Delete", "Description":"User deleted:  Username: mmm Email:m@m.t", "PermissionId":"1200"}
+        {"userId":"568D36E4-778C-43DC-B5AE-14DD354ADD93", "logDate":"2018-05-23 12:51:02.600", "title":"Trigger added: New Trigger 4422", "description":"The following user was added:  Username: mmm Email:m@m.t", "permissionId":"201"},
+        {"userId":"568D36E4-778C-43DC-B5AE-14DD354ADD93", "logDate":"2019-05-23 12:51:02.600", "title":"Delete", "description":"User deleted:  Username: mmm Email:m@m.t", "permissionId":"1200"},
+        {"userId":"568D36E4-778C-43DC-B5AE-14DD354ADD93", "logDate":"2020-05-23 12:51:02.600", "title":"User change", "description":"Change user permissions: Username: mmm Email:m@m.t", "permissionId":"214"}
     ]
     
 }

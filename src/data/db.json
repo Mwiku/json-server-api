@@ -1,48 +1,117 @@
 {
-    "config":[{
-        "id": 1,
-        "name": "gain",
-        "Value": "100"
-        },
-        {
-        "id": 2,
-        "name": "max-gain",
-        "value": "200"
-        },
-        {
-        "id": 3,
-        "name": "serial-output-format",
-        "value": "nmea"
-        },
-        {
-        "id":4,
-        "name": "baud-rate",
-        "value": "9600"
-        },
-        {
-        "id": 5,
-        "name": "agc-enabled",
-        "value": "20"
-        },
-        {
-        "id":6,
-        "name": "footprint-offset",
-        "value": "10"
-        }
-    ],
-    "timezone": {
-        "timezone": "America/New_York"
+  "config": [
+    {
+      "id": 1,
+      "name": "gain",
+      "Value": "100"
     },
-    "courses":[
-        {"id":1, "name":"MAT101", "description":"Intro to calcus and logic"},
-        {"id":2, "name":"CHEM100", "description":"A brief intro to chemistry with Chang"},
-        {"id":3, "name":"STA100", "description":"Number permutations and probability"},
-        {"id":4, "name":"COM100", "description":"History of computer science and logic gates"}
-    ],
-    "change-log": [
-        {"userId":"568D36E4-778C-43DC-B5AE-14DD354ADD93", "logDate":"2018-05-23 12:51:02.600", "title":"Trigger added: New Trigger 4422", "description":"The following user was added:  Username: mmm Email:m@m.t", "permissionId":"201"},
-        {"userId":"568D36E4-778C-43DC-B5AE-14DD354ADD93", "logDate":"2019-05-23 12:51:02.600", "title":"Delete", "description":"User deleted:  Username: mmm Email:m@m.t", "permissionId":"1200"},
-        {"userId":"568D36E4-778C-43DC-B5AE-14DD354ADD93", "logDate":"2020-05-23 12:51:02.600", "title":"User change", "description":"Change user permissions: Username: mmm Email:m@m.t", "permissionId":"214"}
-    ]
-    
+    {
+      "id": 2,
+      "name": "max-gain",
+      "value": "200"
+    },
+    {
+      "id": 3,
+      "name": "serial-output-format",
+      "value": "nmea"
+    },
+    {
+      "id": 4,
+      "name": "baud-rate",
+      "value": "9600"
+    },
+    {
+      "id": 5,
+      "name": "agc-enabled",
+      "value": "20"
+    },
+    {
+      "id": 6,
+      "name": "footprint-offset",
+      "value": "10"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "name": "csharp",
+      "author": "Elon",
+      "genres": [
+        "Academic"
+      ],
+      "description": "IT"
+    },
+    {
+      "id": 2,
+      "name": "angular",
+      "author": "Tehillah",
+      "genres": [
+        "Education"
+      ],
+      "description": "IT"
+    }
+  ],
+  "timezone": {
+    "timezone": "America/New_York"
+  },
+  "courses": [
+    {
+      "id": 1,
+      "name": "MAT101",
+      "description": "Intro to calcus and logic"
+    },
+    {
+      "id": 2,
+      "name": "CHEM100",
+      "description": "A brief intro to chemistry with Chang"
+    },
+    {
+      "id": 3,
+      "name": "STA100",
+      "description": "Number permutations and probability"
+    },
+    {
+      "id": 4,
+      "name": "COM100",
+      "description": "History of computer science and logic gates"
+    },
+    {
+      "id": "05ac1459-1fb1-43e0-ab64-95e3c3f7a90f",
+      "name": "NEw ",
+      "description": "all"
+    },
+    {
+      "id": "0611ebdd-b6af-4a74-820f-51d0f3ea2894",
+      "name": "Eng100",
+      "description": "Beginner guide to english for scholars"
+    },
+    {
+      "id": "715dc2bc-db9a-4def-9abb-cd798a0f1f2e",
+      "name": "PHY 210",
+      "description": "Physics in motion"
+    }
+  ],
+  "change-log": [
+    {
+      "userId": "568D36E4-778C-43DC-B5AE-14DD354ADD93",
+      "logDate": "2018-05-23 12:51:02.600",
+      "title": "Trigger added: New Trigger 4422",
+      "description": "The following user was added:  Username: mmm Email:m@m.t",
+      "permissionId": "201"
+    },
+    {
+      "userId": "568D36E4-778C-43DC-B5AE-14DD354ADD93",
+      "logDate": "2019-05-23 12:51:02.600",
+      "title": "Delete",
+      "description": "User deleted:  Username: mmm Email:m@m.t",
+      "permissionId": "1200"
+    },
+    {
+      "userId": "568D36E4-778C-43DC-B5AE-14DD354ADD93",
+      "logDate": "2020-05-23 12:51:02.600",
+      "title": "User change",
+      "description": "Change user permissions: Username: mmm Email:m@m.t",
+      "permissionId": "214"
+    }
+  ]
 }

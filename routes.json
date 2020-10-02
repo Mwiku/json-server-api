@@ -2,5 +2,6 @@
     "/api/config":"/config",
     "/api/timezone":"/timezone",
     "/api/change-log":"/change-log",
-    "/api/courses":"/courses"
+    "/api/courses":"/courses",
+    "/api/books":"/books"
 }

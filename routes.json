@@ -4,5 +4,6 @@
     "/api/change-log":"/change-log",
     "/api/courses":"/courses",
     "api/blogs":"/blogs",
-    "api/authors":"/authors"
+    "api/authors":"/authors",
+    "/api/books":"/books"
 }

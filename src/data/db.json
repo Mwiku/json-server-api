@@ -39,6 +39,16 @@
         {"id":3, "name":"STA100", "description":"Number permutations and probability"},
         {"id":4, "name":"COM100", "description":"History of computer science and logic gates"}
     ],
+    "blogs":[
+        {"id":1, "title":"Blog title 1", "author":"John"},
+        {"id":2, "title":"Blog title 2", "author":"Tehillah"},
+        {"id":3, "title":"Blog title 1", "author":"Linga"}
+    ],
+    "authors":[
+        {"id":1, "name":"John"},
+        {"id":2, "name":"Tehillah"},
+        {"id":3, "name":"Linga"}
+    ],
     "change-log": [
         {"userId":"568D36E4-778C-43DC-B5AE-14DD354ADD93", "logDate":"2018-05-23 12:51:02.600", "title":"Trigger added: New Trigger 4422", "description":"The following user was added:  Username: mmm Email:m@m.t", "permissionId":"201"},
         {"userId":"568D36E4-778C-43DC-B5AE-14DD354ADD93", "logDate":"2019-05-23 12:51:02.600", "title":"Delete", "description":"User deleted:  Username: mmm Email:m@m.t", "permissionId":"1200"},

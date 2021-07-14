@@ -1,56 +1,55 @@
 {
-  "config": [
-    {
-      "id": 1,
-      "name": "gain",
-      "Value": "100"
-    },
-    {
-      "id": 2,
-      "name": "max-gain",
-      "value": "200"
-    },
-    {
-      "id": 3,
-      "name": "serial-output-format",
-      "value": "nmea"
-    },
-    {
-      "id": 4,
-      "name": "baud-rate",
-      "value": "9600"
-    },
-    {
-      "id": 5,
-      "name": "agc-enabled",
-      "value": "20"
-    },
-    {
-      "id": 6,
-      "name": "footprint-offset",
-      "value": "10"
-    }
-  ],
-  "books": [
-    {
-      "id": 1,
-      "name": "csharp",
-      "author": "Elon",
-      "genres": [
-        "Academic"
-      ],
-      "description": "IT"
-    },
-    {
-      "id": 2,
-      "name": "angular",
-      "author": "Tehillah",
-      "genres": [
-        "Education"
-      ],
-      "description": "IT"
-    }
-  ],
+    "config":[{
+        "id": 1,
+        "name": "gain",
+        "Value": "100"
+        },
+        {
+        "id": 2,
+        "name": "max-gain",
+        "value": "200"
+        },
+        {
+        "id": 3,
+        "name": "serial-output-format",
+        "value": "nmea"
+        },
+        {
+        "id":4,
+        "name": "baud-rate",
+        "value": "9600"
+        },
+        {
+        "id": 5,
+        "name": "agc-enabled",
+        "value": "20"
+        },
+        {
+        "id":6,
+        "name": "footprint-offset",
+        "value": "10"
+        }
+    ],
+    "books": [
+      {
+        "id": 1,
+        "name": "csharp",
+        "author": "Elon",
+        "genres": [
+          "Academic"
+        ],
+        "description": "IT"
+      },
+      {
+        "id": 2,
+        "name": "angular",
+        "author": "Tehillah",
+        "genres": [
+          "Education"
+        ],
+        "description": "IT"
+      }
+    ],
   "timezone": {
     "timezone": "America/New_York"
   },
@@ -677,5 +676,15 @@
           }
        ]
     }
- ]
+ ],
+  "blogs":[
+      {"id":1, "title":"Blog title 1", "author":"John"},
+      {"id":2, "title":"Blog title 2", "author":"Tehillah"},
+      {"id":3, "title":"Blog title 1", "author":"Linga"}
+  ],
+  "authors":[
+      {"id":1, "name":"John"},
+      {"id":2, "name":"Tehillah"},
+      {"id":3, "name":"Linga"}
+  ]
 }

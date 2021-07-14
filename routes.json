@@ -4,5 +4,7 @@
     "/api/change-log":"/change-log",
     "/api/courses":"/courses",
     "/api/books":"/books",
+    "/api/blogs":"/blogs",
+    "/api/authors":"/authors",
     "/api/dynamic-yield":"/dynamic-yield"
 }

@@ -3,5 +3,6 @@
     "/api/timezone":"/timezone",
     "/api/change-log":"/change-log",
     "/api/courses":"/courses",
-    "/api/books":"/books"
+    "/api/books":"/books",
+    "/api/dynamic-yield":"/dynamic-yield"
 }
